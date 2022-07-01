@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    li {
+      @apply p-4
+      hover:text-zinc-200 cursor-pointer
+    }
+
+    button {
+        @apply text-white border bg-rose-600 border-rose-600
+        hover:bg-transparent hover:text-rose-600 rounded-md 
+    }
+}
+*{
+  /* background: #E4E4E7; */
+}
